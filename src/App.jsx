@@ -1,5 +1,5 @@
 import "./App.css";
-import useCounterStore from "./stores/counterStore";
+import { useCounterStore } from "./stores/counterStore";
 
 function App() {
   const { count, increase, increaseBy, decrease, decreaseBy } =
